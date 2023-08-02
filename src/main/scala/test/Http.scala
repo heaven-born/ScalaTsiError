@@ -180,7 +180,7 @@ object Http {
                            defaultQuestionAnswerIsReady: Boolean,
                            faqIsIsReady: Boolean,
                            label: Option[RelationLabel],
-                           id: RelationId = RelationId(-1)
+                           id: RelationId = -1
                          )
 
 
